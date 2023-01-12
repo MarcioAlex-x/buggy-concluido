@@ -1,0 +1,85 @@
+/* .banner-principal{
+    background-image: url(assets/Design\ sem\ nome\ \(1\).jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+} */
+/* body{
+    position: relative;
+} */
+.navbar{
+    z-index: 1;
+    width: 100vw;
+}
+
+.barra1{
+    display: block;
+    align-self: flex-end;
+    height: 1px;
+    width: 35vw;
+    background-image: linear-gradient(to right, #19e61cb4, #61f01a8e, #9FD9238e, #F0EE1A8e, #e6ce19b4);
+}
+.barra2{
+    display: block;
+    align-self: flex-end;
+    height: 1px;
+    width: 35vw;
+    background-image: linear-gradient(to left, #19e61cb4, #61f01a8e, #9FD9238e, #F0EE1A8e, #e6ce19b4);
+}
+.card-mkt-1{
+    background: rgba(255, 255, 255, 0.212);
+}
+.contato{
+    background-image: url(assets/trees-3410836_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mkt-1{
+    background-image: linear-gradient(to right, #19e61cb4, #61f01a8e, #9FD9238e, #F0EE1A8e, #e6ce19b4);
+}
+.carousel{
+  width: 30%;
+}
+.whatsapp{
+    position: fixed;
+    z-index: 1;
+    top: 80%;
+    right: 0%;
+    animation-name: pulsar;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes pulsar {
+    0% {
+        height: 65px;
+        width: 65px;
+    }
+    100% {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+.siga{
+    background-color: rgba(83, 73, 73, 0.313);
+}
+
+
+@media screen and ( max-width:766px ){
+    .mobo{
+        display: none;
+    }
+    .carousel{
+        width: 60%;
+      }
+
+}
